@@ -1,2 +1,3 @@
 # swift-samples
-Basic, plain, simple Swift program examples 
+
+Basic, plain, simple Swift program examples.
