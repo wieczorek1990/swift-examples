@@ -1,7 +1,10 @@
+SWIFT_FLAGS = --configuration release
+
 build:
-	swift build --configuration release
+	swift build $(SWIFT_FLAGS)
 
 run:
-	swift run --configuration release
+	swift run $(SWIFT_FLAGS)
+
 clean:
 	rm -r .build/
