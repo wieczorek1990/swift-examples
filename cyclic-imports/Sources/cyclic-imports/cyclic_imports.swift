@@ -5,14 +5,12 @@ public struct cyclic_imports {
 
         let ai = A()
         let bi = B()
-
-        print("Declared.")
+        print("Instantiated.")
 
         ai.b = bi
         bi.a = ai
-
         print("Set.")
 
-        print("Success.")
+        print("Success!")
     }
 }
